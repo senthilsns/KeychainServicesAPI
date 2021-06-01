@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EEE54232666439E00226344 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEE54222666439E00226344 /* AppDelegate.swift */; };
+		0EEE54252666439E00226344 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEE54242666439E00226344 /* SceneDelegate.swift */; };
+		0EEE54272666439E00226344 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEE54262666439E00226344 /* ViewController.swift */; };
+		0EEE542A2666439E00226344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EEE54282666439E00226344 /* Main.storyboard */; };
+		0EEE542C266643A000226344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EEE542B266643A000226344 /* Assets.xcassets */; };
+		0EEE542F266643A000226344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EEE542D266643A000226344 /* LaunchScreen.storyboard */; };
+		0EEE543A266643A100226344 /* PasspocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEE5439266643A100226344 /* PasspocTests.swift */; };
+		0EEE5445266643A100226344 /* PasspocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEE5444266643A100226344 /* PasspocUITests.swift */; };
+		0EEE54562666467A00226344 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEE54552666467A00226344 /* KeychainService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EEE5436266643A100226344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EEE54172666439E00226344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EEE541E2666439E00226344;
+			remoteInfo = Passpoc;
+		};
+		0EEE5441266643A100226344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EEE54172666439E00226344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EEE541E2666439E00226344;
+			remoteInfo = Passpoc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EEE541F2666439E00226344 /* Passpoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Passpoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEE54222666439E00226344 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EEE54242666439E00226344 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0EEE54262666439E00226344 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EEE54292666439E00226344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EEE542B266643A000226344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EEE542E266643A000226344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EEE5430266643A000226344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EEE5435266643A100226344 /* PasspocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasspocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEE5439266643A100226344 /* PasspocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasspocTests.swift; sourceTree = "<group>"; };
+		0EEE543B266643A100226344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EEE5440266643A100226344 /* PasspocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasspocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEE5444266643A100226344 /* PasspocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasspocUITests.swift; sourceTree = "<group>"; };
+		0EEE5446266643A100226344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EEE54552666467A00226344 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EEE541C2666439E00226344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEE5432266643A100226344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEE543D266643A100226344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EEE54162666439E00226344 = {
+			isa = PBXGroup;
+			children = (
+				0EEE54212666439E00226344 /* Passpoc */,
+				0EEE5438266643A100226344 /* PasspocTests */,
+				0EEE5443266643A100226344 /* PasspocUITests */,
+				0EEE54202666439E00226344 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EEE54202666439E00226344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EEE541F2666439E00226344 /* Passpoc.app */,
+				0EEE5435266643A100226344 /* PasspocTests.xctest */,
+				0EEE5440266643A100226344 /* PasspocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EEE54212666439E00226344 /* Passpoc */ = {
+			isa = PBXGroup;
+			children = (
+				0EEE54222666439E00226344 /* AppDelegate.swift */,
+				0EEE54242666439E00226344 /* SceneDelegate.swift */,
+				0EEE54262666439E00226344 /* ViewController.swift */,
+				0EEE54552666467A00226344 /* KeychainService.swift */,
+				0EEE54282666439E00226344 /* Main.storyboard */,
+				0EEE542B266643A000226344 /* Assets.xcassets */,
+				0EEE542D266643A000226344 /* LaunchScreen.storyboard */,
+				0EEE5430266643A000226344 /* Info.plist */,
+			);
+			path = Passpoc;
+			sourceTree = "<group>";
+		};
+		0EEE5438266643A100226344 /* PasspocTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EEE5439266643A100226344 /* PasspocTests.swift */,
+				0EEE543B266643A100226344 /* Info.plist */,
+			);
+			path = PasspocTests;
+			sourceTree = "<group>";
+		};
+		0EEE5443266643A100226344 /* PasspocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0EEE5444266643A100226344 /* PasspocUITests.swift */,
+				0EEE5446266643A100226344 /* Info.plist */,
+			);
+			path = PasspocUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EEE541E2666439E00226344 /* Passpoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EEE5449266643A100226344 /* Build configuration list for PBXNativeTarget "Passpoc" */;
+			buildPhases = (
+				0EEE541B2666439E00226344 /* Sources */,
+				0EEE541C2666439E00226344 /* Frameworks */,
+				0EEE541D2666439E00226344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Passpoc;
+			productName = Passpoc;
+			productReference = 0EEE541F2666439E00226344 /* Passpoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EEE5434266643A100226344 /* PasspocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EEE544C266643A100226344 /* Build configuration list for PBXNativeTarget "PasspocTests" */;
+			buildPhases = (
+				0EEE5431266643A100226344 /* Sources */,
+				0EEE5432266643A100226344 /* Frameworks */,
+				0EEE5433266643A100226344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EEE5437266643A100226344 /* PBXTargetDependency */,
+			);
+			name = PasspocTests;
+			productName = PasspocTests;
+			productReference = 0EEE5435266643A100226344 /* PasspocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0EEE543F266643A100226344 /* PasspocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EEE544F266643A100226344 /* Build configuration list for PBXNativeTarget "PasspocUITests" */;
+			buildPhases = (
+				0EEE543C266643A100226344 /* Sources */,
+				0EEE543D266643A100226344 /* Frameworks */,
+				0EEE543E266643A100226344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EEE5442266643A100226344 /* PBXTargetDependency */,
+			);
+			name = PasspocUITests;
+			productName = PasspocUITests;
+			productReference = 0EEE5440266643A100226344 /* PasspocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EEE54172666439E00226344 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					0EEE541E2666439E00226344 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					0EEE5434266643A100226344 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 0EEE541E2666439E00226344;
+					};
+					0EEE543F266643A100226344 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 0EEE541E2666439E00226344;
+					};
+				};
+			};
+			buildConfigurationList = 0EEE541A2666439E00226344 /* Build configuration list for PBXProject "Passpoc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EEE54162666439E00226344;
+			productRefGroup = 0EEE54202666439E00226344 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EEE541E2666439E00226344 /* Passpoc */,
+				0EEE5434266643A100226344 /* PasspocTests */,
+				0EEE543F266643A100226344 /* PasspocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EEE541D2666439E00226344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEE542F266643A000226344 /* LaunchScreen.storyboard in Resources */,
+				0EEE542C266643A000226344 /* Assets.xcassets in Resources */,
+				0EEE542A2666439E00226344 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEE5433266643A100226344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEE543E266643A100226344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EEE541B2666439E00226344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEE54272666439E00226344 /* ViewController.swift in Sources */,
+				0EEE54562666467A00226344 /* KeychainService.swift in Sources */,
+				0EEE54232666439E00226344 /* AppDelegate.swift in Sources */,
+				0EEE54252666439E00226344 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEE5431266643A100226344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEE543A266643A100226344 /* PasspocTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEE543C266643A100226344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEE5445266643A100226344 /* PasspocUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EEE5437266643A100226344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EEE541E2666439E00226344 /* Passpoc */;
+			targetProxy = 0EEE5436266643A100226344 /* PBXContainerItemProxy */;
+		};
+		0EEE5442266643A100226344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EEE541E2666439E00226344 /* Passpoc */;
+			targetProxy = 0EEE5441266643A100226344 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EEE54282666439E00226344 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EEE54292666439E00226344 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EEE542D266643A000226344 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EEE542E266643A000226344 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EEE5447266643A100226344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EEE5448266643A100226344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EEE544A266643A100226344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Passpoc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.Passpoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EEE544B266643A100226344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Passpoc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.Passpoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0EEE544D266643A100226344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PasspocTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.PasspocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Passpoc.app/Passpoc";
+			};
+			name = Debug;
+		};
+		0EEE544E266643A100226344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PasspocTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.PasspocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Passpoc.app/Passpoc";
+			};
+			name = Release;
+		};
+		0EEE5450266643A100226344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PasspocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.PasspocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Passpoc;
+			};
+			name = Debug;
+		};
+		0EEE5451266643A100226344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PasspocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.PasspocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Passpoc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EEE541A2666439E00226344 /* Build configuration list for PBXProject "Passpoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEE5447266643A100226344 /* Debug */,
+				0EEE5448266643A100226344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EEE5449266643A100226344 /* Build configuration list for PBXNativeTarget "Passpoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEE544A266643A100226344 /* Debug */,
+				0EEE544B266643A100226344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EEE544C266643A100226344 /* Build configuration list for PBXNativeTarget "PasspocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEE544D266643A100226344 /* Debug */,
+				0EEE544E266643A100226344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EEE544F266643A100226344 /* Build configuration list for PBXNativeTarget "PasspocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEE5450266643A100226344 /* Debug */,
+				0EEE5451266643A100226344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EEE54172666439E00226344 /* Project object */;
+}
